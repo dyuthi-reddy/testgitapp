@@ -1,0 +1,14 @@
+C:\Users\dpedaballi\source\repos\testGitApp\bin\Debug\netcoreapp2.2\testGitApp.deps.json
+C:\Users\dpedaballi\source\repos\testGitApp\bin\Debug\netcoreapp2.2\testGitApp.runtimeconfig.json
+C:\Users\dpedaballi\source\repos\testGitApp\bin\Debug\netcoreapp2.2\testGitApp.runtimeconfig.dev.json
+C:\Users\dpedaballi\source\repos\testGitApp\bin\Debug\netcoreapp2.2\testGitApp.dll
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.csprojAssemblyReference.cache
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.csproj.CoreCompileInputs.cache
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.RazorAssemblyInfo.cache
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.RazorAssemblyInfo.cs
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.AssemblyInfoInputs.cache
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.AssemblyInfo.cs
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.RazorTargetAssemblyInfo.cache
+C:\Users\dpedaballi\source\repos\testGitApp\bin\Debug\netcoreapp2.2\testGitApp.pdb
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.dll
+C:\Users\dpedaballi\source\repos\testGitApp\obj\Debug\netcoreapp2.2\testGitApp.pdb
