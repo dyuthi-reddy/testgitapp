@@ -16,11 +16,11 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t $REPOSITORY_URI:latest .
-      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
+      - docker build -t 320004554292.dkr.ecr.us-west-2.amazonaws.com/testgitapp:latest .
+      - docker tag 320004554292.dkr.ecr.us-west-2.amazonaws.com/testgitapp:latest 320004554292.dkr.ecr.us-west-2.amazonaws.com/testgitapp:$IMAGE_TAG
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker images...
-      - docker push $REPOSITORY_URI:latest
-      - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - docker push 320004554292.dkr.ecr.us-west-2.amazonaws.com/testgitapp:latest
+      - docker push 320004554292.dkr.ecr.us-west-2.amazonaws.com/testgitapp:$IMAGE_TAG
