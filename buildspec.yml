@@ -17,7 +17,7 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...
       - docker build -t testgitapp:v1 .
-      - docker tag 320004554292.dkr.ecr.us-west-2.amazonaws.com/testgitapp:v1 testgitapp:v1
+      - docker tag testgitapp:v1 320004554292.dkr.ecr.us-west-2.amazonaws.com/testgitapp:v1
   post_build:
     commands:
       - echo Build completed on `date`
