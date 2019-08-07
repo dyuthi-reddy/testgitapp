@@ -23,7 +23,7 @@ post_build:
       - echo Build completed on `date`
       - echo Pushing the Docker images...
       - docker push $REPOSITORY_URI:testgitapp.$IMAGE_TAG
-      - printf '[{"name":"testapp","imageUri":$REPOSITORY_URI:testgitapp.$IMAGE_TAG}]' > imagedefinitions.json
+      - print '[{"name":"testapp","imageUri":$REPOSITORY_URI:testgitapp.$IMAGE_TAG}]' > imagedefinitions.json
 artifacts:
    files:
       - imagedefinitions.json
