@@ -26,4 +26,4 @@ post_build:
       - printf '[{"name":"testapp","imageUri":"%s"}]' $REPOSITORY_URI:testgitapp.$IMAGE_TAG > imagedefinitions.json
 artifacts:
    files:
-      - imageDetail.json
+      - imagedefinitions.json
