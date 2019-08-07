@@ -24,7 +24,7 @@ post_build:
       - echo Pushing the Docker images...
       - docker push $REPOSITORY_URI:testgitapp.$IMAGE_TAG
       - echo '[{"name":"testapp","imageUri":$REPOSITORY_URI:testgitapp.$IMAGE_TAG}]'
-      - echo '[{"name":"testapp","imageUri":"$(REPOSITORY_URI:testgitapp.$IMAGE_TAG)"}]' > imagedefinitions.json
+      - echo '[{"name":"testapp","imageUri":"'$REPOSITORY_URI':testgitapp.'$IMAGE_TAG'"}]' > imagedefinitions.json
 artifacts:
    files:
       - imagedefinitions.json
